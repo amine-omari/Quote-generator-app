@@ -6,12 +6,12 @@ const MainContainer = () => {
   return (
     <div className="w-full max-w-[550px]">
       <div className="mb-8 flex justify-center">
-        <button className="rounded-full border bg-zinc-700 px-6 py-2 text-sm text-white duration-300 hover:border-zinc-700 hover:bg-white hover:text-zinc-700 hover:shadow-2xl md:px-8 md:py-3 md:text-lg">
+        <button className="rounded-full border bg-zinc-700 px-6 py-2 text-sm text-white duration-300 hover:border-zinc-700 hover:bg-white hover:text-zinc-700 hover:shadow-2xl md:px-8 md:py-3 md:text-lg dark:bg-white dark:text-zinc-700 dark:hover:border-white dark:hover:bg-zinc-700 dark:hover:text-white">
           Get a New Quote
         </button>
       </div>
       <div className="space-y-3 rounded-xl border border-zinc-700 p-3 md:p-6">
-        <h1 className="rounded-xl bg-zinc-700 py-3 px-6 text-center font-medium text-white md:text-2xl">
+        <h1 className="rounded-xl bg-zinc-700 px-6 py-3 text-center font-medium text-white md:text-2xl">
           quote:this is the quote
         </h1>
         <div>
