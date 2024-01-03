@@ -2,7 +2,7 @@ import MainContainer from "@/components/MainContainer";
 
 export default function Home() {
   return (
-    <main className="h-screen bg-gray-200 flex justify-center items-center">
+    <main className="flex h-screen items-center justify-center bg-gray-200">
       <MainContainer />
     </main>
   );
