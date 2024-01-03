@@ -1,4 +1,5 @@
 import ShareIcon from "@/icons/ShareIcon";
+import StarIcon from "@/icons/StarIcon";
 import React from "react";
 
 const MainContainer = () => {
@@ -20,6 +21,9 @@ const MainContainer = () => {
         <div className="flex justify-end">
           <button className="rounded-full border p-1 duration-300 hover:border-zinc-700 hover:bg-white">
             <ShareIcon />
+          </button>
+          <button className="rounded-full border p-1 duration-300 hover:border-zinc-700 hover:bg-white">
+            <StarIcon />
           </button>
         </div>
       </div>
