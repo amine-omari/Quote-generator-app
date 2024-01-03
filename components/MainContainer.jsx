@@ -17,6 +17,11 @@ const MainContainer = () => {
           <p className="text-sm font-medium">Author :</p>
           <p className="text-xs">Amine Omari Alaoui</p>
         </div>
+        <div className="flex justify-end">
+          <button>
+            <ShareIcon />
+          </button>
+        </div>
       </div>
     </div>
   );
