@@ -6,7 +6,7 @@ const MainContainer = () => {
   return (
     <div className="w-full max-w-[550px]">
       <div className="mb-8 flex justify-center">
-        <button className="rounded-full border bg-zinc-700 px-6 py-2 text-sm text-white duration-300 hover:border-zinc-700 hover:bg-white hover:text-zinc-700 hover:shadow-2xl md:text-lg">
+        <button className="rounded-full border bg-zinc-700 px-6 py-2 text-sm text-white duration-300 hover:border-zinc-700 hover:bg-white hover:text-zinc-700 hover:shadow-2xl md:px-8 md:py-3 md:text-lg">
           Get a New Quote
         </button>
       </div>
@@ -18,7 +18,7 @@ const MainContainer = () => {
           <p className="text-xs font-medium md:text-sm">Author :</p>
           <p className="text-[8px] md:text-xs">Amine Omari Alaoui</p>
         </div>
-        <div className="flex justify-end">
+        <div className="flex justify-end space-x-2">
           <button className="rounded-full border p-1 duration-300 hover:border-zinc-700 hover:bg-white">
             <ShareIcon />
           </button>
