@@ -18,7 +18,7 @@ const MainContainer = () => {
           <p className="text-xs">Amine Omari Alaoui</p>
         </div>
         <div className="flex justify-end">
-          <button>
+          <button className="rounded-full border hover:border-zinc-700 p-1 duration-300 hover:bg-white">
             <ShareIcon />
           </button>
         </div>
