@@ -11,7 +11,7 @@ const MainContainer = () => {
         </button>
       </div>
       <div className="space-y-3 rounded-xl border border-zinc-700 p-3 md:p-6">
-        <h1 className="rounded-xl bg-zinc-700 p-3 text-center font-medium text-white md:text-2xl">
+        <h1 className="rounded-xl bg-zinc-700 py-3 px-6 text-center font-medium text-white md:text-2xl">
           quote:this is the quote
         </h1>
         <div>
@@ -19,10 +19,10 @@ const MainContainer = () => {
           <p className="text-[8px] md:text-xs">Amine Omari Alaoui</p>
         </div>
         <div className="flex justify-end space-x-2">
-          <button className="rounded-full border p-1 duration-300 hover:border-zinc-700 hover:bg-white">
+          <button className="rounded-full border p-1 duration-300 hover:scale-105 hover:border-zinc-700">
             <ShareIcon />
           </button>
-          <button className="rounded-full border p-1 duration-300 hover:border-zinc-700 hover:bg-white">
+          <button className="rounded-full border p-1 duration-300 hover:scale-105 hover:border-zinc-700">
             <StarIcon />
           </button>
         </div>
