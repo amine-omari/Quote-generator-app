@@ -7,6 +7,10 @@ const MainContainer = () => {
         <h1 className="text-2xl text-center font-medium">
           quote:this is the quote
         </h1>
+        <div>
+          <p className="font-medium text-lg">Author :</p>
+          <p>Amine Omari Alaoui</p>
+        </div>
       </div>
     </div>
   );
