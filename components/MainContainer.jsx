@@ -3,8 +3,10 @@ import React from "react";
 const MainContainer = () => {
   return (
     <div>
-      <div>
-        <h1>quote:this is the quote</h1>
+      <div className="space-y-5">
+        <h1 className="text-2xl text-center font-medium">
+          quote:this is the quote
+        </h1>
       </div>
     </div>
   );
