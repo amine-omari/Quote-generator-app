@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const MainContainer = () => {
   return (
-    <div>MainContainer</div>
-  )
-}
+    <div>
+      <div>
+        <h1>quote:this is the quote</h1>
+      </div>
+    </div>
+  );
+};
 
-export default MainContainer
+export default MainContainer;
