@@ -1,3 +1,4 @@
+import ShareIcon from "@/icons/ShareIcon";
 import React from "react";
 
 const MainContainer = () => {
@@ -8,13 +9,13 @@ const MainContainer = () => {
           Get a New Quote
         </button>
       </div>
-      <div className="space-y-5">
-        <h1 className="rounded-xl bg-zinc-700 p-4 text-center text-2xl font-medium text-white">
+      <div className="space-y-5 rounded-xl border border-zinc-700 p-5">
+        <h1 className="p-4 text-center text-2xl font-medium">
           quote:this is the quote
         </h1>
         <div>
-          <p className="font-medium">Author :</p>
-          <p className="text-sm">Amine Omari Alaoui</p>
+          <p className="text-sm font-medium">Author :</p>
+          <p className="text-xs">Amine Omari Alaoui</p>
         </div>
       </div>
     </div>
