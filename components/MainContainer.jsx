@@ -10,6 +10,8 @@ const MainContainer = () => {
   const getQuote = async () => {
     const response = await fetch(apiUrl);
     const quoteData = await response.json();
+
+    setQuote(quoteData);
   };
 
   return (
