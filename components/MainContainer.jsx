@@ -12,7 +12,6 @@ const MainContainer = () => {
     const quoteData = await response.json();
 
     setQuote(quoteData);
-    console.log(quoteData);
   };
 
   return (
