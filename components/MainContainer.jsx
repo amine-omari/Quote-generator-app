@@ -1,5 +1,6 @@
 import ShareIcon from "@/icons/ShareIcon";
 import StarIcon from "@/icons/StarIcon";
+import TwitterIcon from "@/icons/TwitterIcon";
 import WhatsappIcon from "@/icons/WhatsappIcon";
 import React, { useState } from "react";
 
@@ -11,7 +12,9 @@ const MainContainer = () => {
       <button>
         <WhatsappIcon />
       </button>
-      <button></button>
+      <button>
+        <TwitterIcon />
+      </button>
       <button></button>
     </div>
   );
