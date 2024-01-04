@@ -7,20 +7,7 @@ import React, { useState } from "react";
 
 const MainContainer = () => {
   const [quote, setQuote] = useState();
-
-  const sharePage = () => (
-    <div>
-      <button>
-        <WhatsappIcon />
-      </button>
-      <button>
-        <TwitterIcon />
-      </button>
-      <button>
-        <FacebookIcon />
-      </button>
-    </div>
-  );
+  const [shareIcons, setShareIcons] = useState(false);
 
   const apiUrl = "https://api.quotable.io/random";
 
@@ -51,7 +38,25 @@ const MainContainer = () => {
             <p className="text-[8px] md:text-xs">{quote.author}</p>
           </div>
           <div className="flex justify-end space-x-2">
-            <button className="rounded-full border p-1 duration-300 hover:scale-105 hover:border-zinc-700">
+            <button
+              onMouseEnter={() => setShareIcons(true)}
+              onMouseLeave={() => setShareIcons(false)}
+              className="relative rounded-full border p-1 duration-300 hover:scale-105 hover:border-zinc-700"
+              on
+            >
+              {shareIcons && (
+                <div className="absolute -top-7 right-0 flex space-x-2 rounded-xl bg-zinc-700 px-2 py-1 dark:bg-white">
+                  <button>
+                    <WhatsappIcon />
+                  </button>
+                  <button>
+                    <TwitterIcon />
+                  </button>
+                  <button>
+                    <FacebookIcon />
+                  </button>
+                </div>
+              )}
               <ShareIcon />
             </button>
             <button className="rounded-full border p-1 duration-300 hover:scale-105 hover:border-zinc-700">
