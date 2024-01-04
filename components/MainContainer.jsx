@@ -1,3 +1,4 @@
+import FacebookIcon from "@/icons/FacebookIcon";
 import ShareIcon from "@/icons/ShareIcon";
 import StarIcon from "@/icons/StarIcon";
 import TwitterIcon from "@/icons/TwitterIcon";
@@ -15,7 +16,9 @@ const MainContainer = () => {
       <button>
         <TwitterIcon />
       </button>
-      <button></button>
+      <button>
+        <FacebookIcon />
+      </button>
     </div>
   );
 
