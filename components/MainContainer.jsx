@@ -1,8 +1,9 @@
 import ShareIcon from "@/icons/ShareIcon";
 import StarIcon from "@/icons/StarIcon";
-import React from "react";
+import React, { useState } from "react";
 
 const MainContainer = () => {
+  const [quote, setQuote] = useState();
   return (
     <div className="w-full max-w-[550px] rounded-2xl border-4 border-zinc-700 p-6 dark:border-white">
       <div className="mb-8 flex justify-center">
