@@ -7,7 +7,7 @@ import React, { useState } from "react";
 
 const MainContainer = () => {
   const [quote, setQuote] = useState();
-  const [shareIcons, setShareIcons] = useState(false);
+  const [shareIcons, setShareIcons] = useState();
 
   const apiUrl = "https://api.quotable.io/random";
 
