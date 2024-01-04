@@ -1,9 +1,20 @@
 import ShareIcon from "@/icons/ShareIcon";
 import StarIcon from "@/icons/StarIcon";
+import WhatsappIcon from "@/icons/WhatsappIcon";
 import React, { useState } from "react";
 
 const MainContainer = () => {
   const [quote, setQuote] = useState();
+
+  const sharePage = () => (
+    <div>
+      <button>
+        <WhatsappIcon />
+      </button>
+      <button></button>
+      <button></button>
+    </div>
+  );
 
   const apiUrl = "https://api.quotable.io/random";
 
