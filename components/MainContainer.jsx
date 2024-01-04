@@ -31,7 +31,7 @@ const MainContainer = () => {
       {quote && (
         <div className="space-y-3 md:py-3">
           <h1 className="rounded-xl bg-zinc-700 px-6 py-3 text-center font-medium text-white md:text-2xl dark:bg-white dark:text-zinc-700">
-            {quote.content}
+            "{quote.content}"
           </h1>
           <div>
             <p className="text-xs font-medium md:text-sm">Author :</p>
