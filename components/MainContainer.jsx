@@ -42,7 +42,6 @@ const MainContainer = () => {
               onMouseEnter={() => setShareIcons(true)}
               onMouseLeave={() => setShareIcons(false)}
               className="relative rounded-full border p-1 duration-300 hover:scale-105 hover:border-zinc-700"
-              on
             >
               {shareIcons && (
                 <div className="absolute -top-7 right-0 flex space-x-2 rounded-xl bg-zinc-700 px-2 py-1 dark:bg-white">
